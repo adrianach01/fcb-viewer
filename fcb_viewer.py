@@ -8,10 +8,6 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 URLS = [
     {
-        "url":"https://www.fcbarcelona.com/en/tickets/football/regular/copa-del-rey/semifinals",
-        "title": "⚽ FC Barcelona 🆚 Atletico de Madrid (Copa del Rey Semifinal)"
-    },
-    {
         "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-realmadrid",
         "title": "⚽ FC Barcelona 🆚 Real Madrid"
     },
