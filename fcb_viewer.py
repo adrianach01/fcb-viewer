@@ -41,7 +41,7 @@ def check_page(url):
         page = browser.new_page()
         page.goto(url, timeout=30000)
         print("[LOG] Página cargada, esperando 5s para que se ejecute JS...")
-        page.wait_for_timeout(5000)  # espera que cargue el JS dinámico
+        page.wait_for_timeout(3000)  # espera que cargue el JS dinámico
 
         # Buscar todas las tarjetas de tickets
         cards = page.query_selector_all("div.card-info")
