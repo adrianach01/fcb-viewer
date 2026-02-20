@@ -86,4 +86,7 @@ if __name__ == "__main__":
             message = f"ℹ️ {title}\n🎟️ No se detectó ni 'Temporalmente no disponibles' ni 'Comprar tickets'.\n🔗 Accede aquí: {url}"
             send_telegram_message(message)
 
+    print(f"[DEBUG] TELEGRAM_BOT_TOKEN: {TELEGRAM_BOT_TOKEN}")
+    print(f"[DEBUG] TELEGRAM_CHAT_ID: {TELEGRAM_CHAT_ID}")
+
     print("[LOG] Chequeo finalizado")

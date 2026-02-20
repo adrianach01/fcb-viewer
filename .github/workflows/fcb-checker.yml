@@ -1,6 +1,5 @@
 name: 👀 Check FC Barcelona Tickets
 
-
 on:
   schedule:
     # Cada media hora (cron en UTC)
@@ -24,7 +23,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install playwright requests
-          playwright install chromium
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Playwright browsers
+        run: playwright install chromium
 
       - name: Run ticket checker
         env:
