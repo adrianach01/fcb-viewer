@@ -84,5 +84,4 @@ if __name__ == "__main__":
 
     print(f"[DEBUG] TELEGRAM_BOT_TOKEN: {TELEGRAM_BOT_TOKEN}")
     print(f"[DEBUG] TELEGRAM_CHAT_ID: {TELEGRAM_CHAT_ID}")
-
     print("[LOG] Chequeo finalizado")
