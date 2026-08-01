@@ -3,6 +3,10 @@
     "last_notified_at": "2026-08-01T12:53:44.685062+02:00",
     "status": "buyable"
   },
+  "fcb-celtadevigo": {
+    "last_notified_at": "2026-08-01T12:58:36.522946+02:00",
+    "status": "unknown"
+  },
   "fcb-realbetis": {
     "last_notified_at": "2026-08-01T12:53:44.685062+02:00",
     "status": "unknown"
@@ -10,5 +14,9 @@
   "fcb-realmadrid": {
     "last_notified_at": "2026-08-01T12:53:44.685062+02:00",
     "status": "unavailable"
+  },
+  "fcb-villarreal": {
+    "last_notified_at": "2026-08-01T12:58:36.522946+02:00",
+    "status": "unknown"
   }
 }
