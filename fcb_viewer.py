@@ -28,7 +28,7 @@ PHRASES_BY_LOCALE = {
 }
 
 NOTIFY_MODAL_CLASS_HINTS = ("modal-activate",)
-UNAVAILABLE_CLASS_HINTS = ("button-buy__non-available", "btn--disabled")
+UNAVAILABLE_CLASS_HINTS = ("button-buy__non-available", "btn--disabled", "letmeknow")
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")

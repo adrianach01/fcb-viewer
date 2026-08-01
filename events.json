@@ -8,17 +8,22 @@
     {
       "id": "fcb-athleticclub",
       "title": "⚽ FC Barcelona 🆚 Athletic Club",
-      "url": "https://www.fcbarcelona.es/es/entradas/futbol/regular/laliga/fcbarcelona-athleticclub"
+      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-athleticclub"
     },
     {
       "id": "fcb-villarreal",
       "title": "⚽ FC Barcelona 🆚 Villarreal",
-      "url": "https://www.fcbarcelona.es/es/entradas/futbol/regular/laliga/fcbarcelona-villarreal"
+      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-villarreal"
     },
     {
       "id": "fcb-celtadevigo",
       "title": "⚽ FC Barcelona 🆚 Celta de Vigo",
-      "url": "https://www.fcbarcelona.es/es/entradas/futbol/regular/laliga/fcbarcelona-celtadevigo"
+      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-celtadevigo"
+    },
+    {
+      "id": "fcb-realsociedad",
+      "title": "⚽ FC Barcelona 🆚 Real Sociedad",
+      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-realsociedad"
     }
   ]
 }

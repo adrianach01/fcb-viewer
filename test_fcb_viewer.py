@@ -67,6 +67,46 @@ class ClassifyStatusTests(unittest.TestCase):
         }]
         self.assertEqual(classify_status(buttons, "es"), "unavailable")
 
+    def test_english_let_me_know_is_unavailable_not_unknown(self):
+        # Confirmed live on fcbarcelona.com/villarreal: basic tier not yet on
+        # sale shows "LET ME KNOW" with a real href and a "letmeknow" class,
+        # not any of the known buy/unavailable phrases.
+        buttons = [{
+            "text": "LET ME KNOW",
+            "href": "https://go.fcbarcelona.com/SPOTIFYCAMPNOU/BASIC/FCBARCELONA-VILLARREALCF2627/EN",
+            "classes": "button-buy letmeknow  dtm-event-trigger  ",
+        }]
+        self.assertEqual(classify_status(buttons, "en"), "unavailable")
+
+    def test_spanish_avisame_is_unavailable_not_unknown(self):
+        buttons = [{
+            "text": "AVÍSAME",
+            "href": "https://go.fcbarcelona.com/SPOTIFYCAMPNOU/BASIC/FCBARCELONA-VILLARREALCF2627/ES",
+            "classes": "button-buy letmeknow  dtm-event-trigger  ",
+        }]
+        self.assertEqual(classify_status(buttons, "es"), "unavailable")
+
+    def test_let_me_know_basic_tier_with_buyable_premium_tier_is_unavailable_overall(self):
+        # Real Villarreal page shape: premium tier is buyable, but the basic
+        # tier only offers "notify me" -- overall status should reflect that
+        # the tier most people care about isn't actually on sale yet... but
+        # today's aggregation still treats "any buyable tier" as buyable.
+        # This test documents current behavior rather than asserting a new
+        # requirement.
+        buttons = [
+            {
+                "text": "BUY TICKETS",
+                "href": "https://go.fcbarcelona.com/SPOTIFYCAMPNOU/VIPPREMIUM/FCBARCELONA-VILLARREALCF2627/EN",
+                "classes": "button-buy   dtm-event-trigger  ",
+            },
+            {
+                "text": "LET ME KNOW",
+                "href": "https://go.fcbarcelona.com/SPOTIFYCAMPNOU/BASIC/FCBARCELONA-VILLARREALCF2627/EN",
+                "classes": "button-buy letmeknow  dtm-event-trigger  ",
+            },
+        ]
+        self.assertEqual(classify_status(buttons, "en"), "buyable")
+
     def test_spanish_buy_text_but_hash_href_and_modal_is_pending_not_buyable(self):
         buttons = [{
             "text": "COMPRAR ENTRADAS",

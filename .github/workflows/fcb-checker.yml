@@ -2,8 +2,8 @@ name: 👀 Check FC Barcelona Tickets
 
 on:
   schedule:
-    # Cada media hora (cron en UTC), excepto de 2 a 6 de la mañana
-      - cron: 1,31 0-1,6-23 * * *
+    # Cada 15 minutos (UTC), excepto de 02:00 a 05:59
+    - cron: '*/15 0-1,6-23 * * *'
   workflow_dispatch: # Permite ejecutar manualmente desde GitHub
 
 permissions:
