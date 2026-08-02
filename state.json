@@ -1,22 +1,22 @@
 {
   "fcb-athleticclub": {
-    "last_notified_at": "2026-08-02T18:37:44.501099+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-08-02T19:45:39.162594+02:00",
+    "status": "buyable"
   },
   "fcb-celtadevigo": {
-    "last_notified_at": "2026-08-02T18:37:44.501099+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-08-02T19:45:39.162594+02:00",
+    "status": "unavailable"
   },
   "fcb-realmadrid": {
-    "last_notified_at": "2026-08-02T18:37:44.501099+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-08-02T19:45:39.162594+02:00",
+    "status": "unavailable"
   },
   "fcb-realsociedad": {
-    "last_notified_at": "2026-08-02T18:37:44.501099+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-08-02T19:45:39.162594+02:00",
+    "status": "unavailable"
   },
   "fcb-villarreal": {
-    "last_notified_at": "2026-08-02T18:37:44.501099+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-08-02T19:45:39.162594+02:00",
+    "status": "unavailable"
   }
 }
