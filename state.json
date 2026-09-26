@@ -4,7 +4,7 @@
     "status": "unknown"
   },
   "fcb-celtadevigo": {
-    "last_notified_at": "2026-09-25T13:30:57.970982+02:00",
+    "last_notified_at": "2026-09-26T13:05:37.983517+02:00",
     "status": "buyable"
   },
   "fcb-realmadrid": {
@@ -12,11 +12,11 @@
     "status": "unavailable"
   },
   "fcb-realsociedad": {
-    "last_notified_at": "2026-09-25T13:30:57.970982+02:00",
+    "last_notified_at": "2026-09-26T13:05:37.983517+02:00",
     "status": "buyable"
   },
   "fcb-villarreal": {
-    "last_notified_at": "2026-09-25T13:30:57.970982+02:00",
+    "last_notified_at": "2026-09-26T13:05:37.983517+02:00",
     "status": "buyable"
   }
 }
