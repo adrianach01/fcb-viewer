@@ -6,14 +6,9 @@
       "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-realmadrid"
     },
     {
-      "id": "fcb-villarreal",
-      "title": "⚽ FC Barcelona 🆚 Villarreal",
-      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-villarreal"
-    },
-    {
-      "id": "fcb-celtadevigo",
-      "title": "⚽ FC Barcelona 🆚 Celta de Vigo",
-      "url": "https://www.fcbarcelona.es/en/entradas/futbol/regular/laliga/fcbarcelona-celtadevigo"
+      "id": "fcb-manchester",
+      "title": "⚽ (8 Dec) CHAMPIONS! FC Barcelona 🆚 Manchester United",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/champions-league/fcbarcelona-manchestercity"
     },
     {
       "id": "fcb-realsociedad",
