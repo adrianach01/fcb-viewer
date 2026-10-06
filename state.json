@@ -12,11 +12,11 @@
     "status": "unavailable"
   },
   "fcb-realmadrid": {
-    "last_notified_at": "2026-10-05T16:06:37.003282+02:00",
-    "status": "unknown"
+    "last_notified_at": "2026-10-06T15:04:25.345191+02:00",
+    "status": "unavailable"
   },
   "fcb-realsociedad": {
-    "last_notified_at": "2026-10-05T16:06:37.003282+02:00",
+    "last_notified_at": "2026-10-06T15:04:25.345191+02:00",
     "status": "buyable"
   },
   "fcb-villarreal": {
