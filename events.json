@@ -1,11 +1,6 @@
 {
   "events": [
     {
-      "id": "fcb-realmadrid",
-      "title": "⚠️⚠️⚽ FC Barcelona 🆚 Real Madrid ⚽⚠️⚠️",
-      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-realmadrid"
-    },
-    {
       "id": "fcb-manchester",
       "title": "⚽ (8 Dec) CHAMPIONS! FC Barcelona 🆚 Manchester United",
       "url": "https://www.fcbarcelona.com/en/tickets/football/regular/champions-league/fcbarcelona-manchestercity"
@@ -19,6 +14,31 @@
       "id": "fcb-valencia",
       "title": "⚽ FC Barcelona 🆚 Valencia",
       "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-valenciacf"
+    },
+    {
+      "id": "fcb-atleticodemadrid",
+      "title": "⚽ FC Barcelona 🆚 Atletico de Madrid",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-atleticodemadrid"
+    },
+    {
+      "id": "fcb-levante",
+      "title": "⚽ FC Barcelona 🆚 Levante",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-levante"
+    },
+    {
+      "id": "fcb-realbetis",
+      "title": "⚽ FC Barcelona 🆚 Real Betis",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-realbetis"
+    },
+    {
+      "id": "fcb-sevilla",
+      "title": "⚽ FC Barcelona 🆚 Sevilla",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-sevilla"
+    },
+    {
+      "id": "fcb-espanyol",
+      "title": "⚽ FC Barcelona 🆚 Espanyol",
+      "url": "https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-espanyol"
     }
   ]
 }
