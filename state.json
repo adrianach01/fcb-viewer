@@ -3,13 +3,29 @@
     "last_notified_at": "2026-09-15T14:32:58.292609+02:00",
     "status": "unknown"
   },
+  "fcb-atleticodemadrid": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
+  },
   "fcb-celtadevigo": {
     "last_notified_at": "2026-09-28T15:23:23.853224+02:00",
     "status": "buyable"
   },
+  "fcb-espanyol": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
+  },
+  "fcb-levante": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
+  },
   "fcb-manchester": {
     "last_notified_at": "2026-09-29T15:14:12.307009+02:00",
     "status": "unavailable"
+  },
+  "fcb-realbetis": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
   },
   "fcb-realmadrid": {
     "last_notified_at": "2026-10-24T13:27:16.025294+02:00",
@@ -18,6 +34,14 @@
   "fcb-realsociedad": {
     "last_notified_at": "2026-10-24T13:27:16.025294+02:00",
     "status": "buyable"
+  },
+  "fcb-sevilla": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
+  },
+  "fcb-valencia": {
+    "last_notified_at": "2026-10-24T19:59:04.017140+02:00",
+    "status": "unknown"
   },
   "fcb-villarreal": {
     "last_notified_at": "2026-09-28T15:23:23.853224+02:00",
